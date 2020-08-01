@@ -1,0 +1,13 @@
+diff --git a/device.mk b/device.mk
+index e2415b9..a34248f 100644
+--- a/device.mk
++++ b/device.mk
+@@ -4,7 +4,7 @@
+ # SPDX-License-Identifier: Apache-2.0
+ #
+ 
+-$(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
++# $(call inherit-product, $(SRC_TARGET_DIR)/product/halium.mk)
+ 
+ # Get non-open-source specific aspects
+ #$(call inherit-product-if-exists, vendor/xiaomi/beryllium/beryllium-vendor.mk)
